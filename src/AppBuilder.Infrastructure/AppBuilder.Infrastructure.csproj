@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AppBuilder.Application\AppBuilder.Application.csproj" />
+    <ProjectReference Include="..\AppBuilder.Domain\AppBuilder.Domain.csproj" />
+    <ProjectReference Include="..\AppBuilder.SharedKernel\AppBuilder.SharedKernel.csproj" />
+  </ItemGroup>
+
+</Project>
