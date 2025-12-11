@@ -6,4 +6,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Identity\" />
+    <Folder Include="Integrations\" />
+    <Folder Include="Release\" />
+    <Folder Include="Notifications\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AppBuilder.SharedKernel\AppBuilder.SharedKernel.csproj" />
+  </ItemGroup>
+
 </Project>
